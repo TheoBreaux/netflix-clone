@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+i {
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px;
+}
+
+span {
+    color: white;
+    padding: 10px;
+}
+
+header {
+    padding: 20px;
+    background-image: url(GBB.jpg);
+    background-size: cover;
+    background-size: 100%;
+}
+
+.header__top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    color: red;
+}
+
+.gray {
+    color: gray;
+}
+
+button {
+    color: black;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+}
+
+.gray-button {
+    background-color: gray;
+    color: white;
+}
+
+.header-main__left-section {
+    width: 40%;
+}
+
+.row {
+    margin: 10px;
+}
+
+.images-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100%;
+    margin: 5px;
+}
